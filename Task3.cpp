@@ -8,5 +8,6 @@ void analyze_pointer(int *ptr){
 int main(){
    int* a=new int(23);
    analyze_pointer(a);
+   delete a;
    return 0;
 }
