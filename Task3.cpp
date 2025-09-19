@@ -6,8 +6,7 @@ void analyze_pointer(int *ptr){
    return;
 }
 int main(){
-   int a=23;
-   int *ptr=&a;
-   analyze_pointer(ptr);
+   int* a=new int(23);
+   analyze_pointer(a);
    return 0;
 }
